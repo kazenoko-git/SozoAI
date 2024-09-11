@@ -1,9 +1,8 @@
-from main import instances as ins
-from main import chat
+import instances as ins
+import chat
 try: import streamlit as st
 except: ins.install("streamlit")
 finally: import streamlit as st
-import interactor
 st.set_page_config(page_title="Sozomi LLM", page_icon=":tada:", layout="wide") # https://www.webfx.com/tools/emoji-cheat-sheet/
 with st.container():
     global AI, TTS

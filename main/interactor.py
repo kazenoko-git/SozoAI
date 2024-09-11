@@ -1,4 +1,4 @@
-from main import chat
+import chat
 
 class Chat():
     def __init__(self, username, test, model): self.client = chat.completions(username="Kazenoko", test=test, model=model)
