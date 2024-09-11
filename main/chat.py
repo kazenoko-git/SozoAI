@@ -1,6 +1,6 @@
 import time, threading
 from datetime import datetime
-from main import instances as ins
+import instances as ins
 try:
     from groq import Groq
     from tqdm import tqdm
